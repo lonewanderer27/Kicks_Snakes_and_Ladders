@@ -667,6 +667,7 @@
 
         <!--Dice-->
         <LinearLayout
+            android:backgroundTint="#225c6e"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="15sp"
@@ -694,12 +695,14 @@
             tools:ignore="MissingConstraints">
 
             <Button
+                android:backgroundTint="#225c6e"
                 android:text="PLAY"
                 android:textSize="18dp"
                 android:layout_width="200sp"
                 android:id="@+id/playBtn"
                 android:layout_height="wrap_content"/>
             <Button
+                android:backgroundTint="#eb7171"
                 android:text="RESET"
                 android:textSize="18dp"
                 android:layout_width="200sp"
